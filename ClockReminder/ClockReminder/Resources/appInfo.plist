@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>reminderKeyCurrentNumber</key>
+	<string>0</string>
+	<key>default_tw</key>
+	<string>開始日期</string>
+	<key>default_en</key>
+	<string>Start date</string>
+	<key>repeatIntervalName_tw</key>
+	<array>
+		<string>不提醒</string>
+		<string>指定曰期</string>
+		<string>每年</string>
+		<string>每季</string>
+		<string>每月</string>
+		<string>每週</string>
+		<string>每天</string>
+		<string>每小時</string>
+		<string>每分鐘</string>
+		<string>秒鐘後</string>
+	</array>
+	<key>repeatIntervalName_en</key>
+	<array>
+		<string>None</string>
+		<string>specific date</string>
+		<string>year</string>
+		<string>season</string>
+		<string>month</string>
+		<string>week</string>
+		<string>day</string>
+		<string>hour</string>
+		<string>minute</string>
+		<string>seconds later</string>
+	</array>
+	<key>error001_tw</key>
+	<string>開始日期必須在結束曰期之前。</string>
+	<key>error001_en</key>
+	<string>The start date must be before the end date.</string>
+	<key>error002_tw</key>
+	<string>開始日期必須輸入。</string>
+	<key>error002_en</key>
+	<string>The start date must be entered.</string>
+	<key>cell_startdate_tw</key>
+	<string>開始日期</string>
+	<key>cell_startdate_en</key>
+	<string>Start Date</string>
+	<key>cell_enddate_tw</key>
+	<string>結束日期</string>
+	<key>cell_enddate_en</key>
+	<string>End Date</string>
+	<key>cell_reminderInterval_tw</key>
+	<string>通知頻率</string>
+	<key>cell_reminderInterval_en</key>
+	<string>Repeat</string>
+	<key>cell_savetocaneldar_tw</key>
+	<string>增加至行事曆</string>
+	<key>cell_savetocaneldar_en</key>
+	<string>Add to calendar</string>
+	<key>aboutme_tw</key>
+	<string>    KaxaNote是一個簡單實用的相片式提醒工具，它讓您在生活中有突發的提醒需求時，採取照相方式，直接設定手機鬧鐘，在日後鬧鈴響起時，直接秀出當時的照片作為提醒，見圖即知，大幅減少文字輸入的不便性。</string>
+	<key>aboutmeheight_tw</key>
+	<string>125</string>
+	<key>aboutme_en</key>
+	<string>    KaxaNote is an easy-to-use and practical tool which can remind you about important things via photos! When you have to remind yourself something but have no pen around you, you&apos;ll need KaxaNote. Just take a photo and this program can directly link to the calendar function and you can choose when to show this picture again. You will save lots of time using a vivid and efficient way instead of typing boring words to handle tasks. </string>
+	<key>aboutmeheight_en</key>
+	<string>240</string>
+	<key>aboutmeTitle_tw</key>
+	<array>
+		<string>版本</string>
+		<string>功能簡介</string>
+		<string>聯絡我們</string>
+	</array>
+	<key>aboutmeTitle_en</key>
+	<array>
+		<string>version</string>
+		<string>Introduction</string>
+		<string>contact us</string>
+	</array>
+	<key>phototitle_tw</key>
+	<string>請選擇來源</string>
+	<key>phototitle_en</key>
+	<string>Please choose a source</string>
+	<key>takepicture_tw</key>
+	<string>拍照</string>
+	<key>takepicture_en</key>
+	<string>Camera</string>
+	<key>photoalbum_tw</key>
+	<string>圖庫</string>
+	<key>photoalbum_en</key>
+	<string>Photo Albums</string>
+	<key>cancel_tw</key>
+	<string>取消</string>
+	<key>cancel_en</key>
+	<string>Cancel</string>
+	<key>month_tw</key>
+	<dict>
+		<key>1</key>
+		<string>一月</string>
+		<key>2</key>
+		<string>二月</string>
+		<key>3</key>
+		<string>三月</string>
+		<key>4</key>
+		<string>四月</string>
+		<key>5</key>
+		<string>五月</string>
+		<key>6</key>
+		<string>六月</string>
+		<key>7</key>
+		<string>七月</string>
+		<key>8</key>
+		<string>八月</string>
+		<key>9</key>
+		<string>九月</string>
+		<key>10</key>
+		<string>十月</string>
+		<key>11</key>
+		<string>十一月</string>
+		<key>12</key>
+		<string>十二月</string>
+		<key>0</key>
+		<string>預設</string>
+	</dict>
+	<key>month_en</key>
+	<dict>
+		<key>1</key>
+		<string>January</string>
+		<key>2</key>
+		<string>February</string>
+		<key>3</key>
+		<string>March</string>
+		<key>4</key>
+		<string>April</string>
+		<key>5</key>
+		<string>May</string>
+		<key>6</key>
+		<string>June</string>
+		<key>7</key>
+		<string>July</string>
+		<key>8</key>
+		<string>August</string>
+		<key>9</key>
+		<string>September</string>
+		<key>10</key>
+		<string>October</string>
+		<key>11</key>
+		<string>November</string>
+		<key>12</key>
+		<string>December</string>
+		<key>0</key>
+		<string>Default</string>
+	</dict>
+	<key>week_tw</key>
+	<dict>
+		<key>1</key>
+		<string>星期天</string>
+		<key>2</key>
+		<string>星期一</string>
+		<key>3</key>
+		<string>星期二</string>
+		<key>4</key>
+		<string>星期三</string>
+		<key>5</key>
+		<string>星期四</string>
+		<key>6</key>
+		<string>星期五</string>
+		<key>7</key>
+		<string>星期六</string>
+		<key>0</key>
+		<string>開始日期</string>
+	</dict>
+	<key>week_en</key>
+	<dict>
+		<key>1</key>
+		<string>Sunday</string>
+		<key>2</key>
+		<string>Monday</string>
+		<key>3</key>
+		<string>Tuesday</string>
+		<key>4</key>
+		<string>Wednesday</string>
+		<key>5</key>
+		<string>Thursday</string>
+		<key>6</key>
+		<string>Friday</string>
+		<key>7</key>
+		<string>Saturday</string>
+		<key>0</key>
+		<string>Start date</string>
+	</dict>
+</dict>
+</plist>

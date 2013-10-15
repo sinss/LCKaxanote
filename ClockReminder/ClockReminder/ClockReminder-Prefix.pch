@@ -1,0 +1,69 @@
+//
+// Prefix header for all source files of the 'ClockReminder' target in the 'ClockReminder' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+#define reminderKeyListPath @"reminderKeyList.plist"
+#define reminderFilePath @"reminderFile.plist"
+#define reminderKeyCurrentNumber @"reminderKeyCurrentNumber"
+#define appInfoFilePath @"appInfo.plist"
+
+//reminderDictionary key
+#define reminderKeyRkey @"rKey"
+#define reminderKeyReminderTime @"reminderTime"
+#define reminderKeyEndReminderTime @"endReminderTime"
+#define reminderKeyRepeatInterval @"repeatInterval"
+#define reminderKeyReminderDelayUnit @"reminderDelayUnit"
+#define reminderKeyImageFilePath @"imageFilePath"
+#define reminderKeyMemoContent @"memoContent"
+#define reminderKeyIsEnable @"isEnable"
+#define EkeventTitle @"kaxanote"
+//custom image name
+#define navigationBarBackground @"title_og_up.png"
+#define toolbarBackground @"title_og_non.png"
+#define navigationBarTitleView_height 44
+#define navigationBarTitleView_width 180
+#define noImageName @"nopicture_bg"
+//上方NavigationBar上的按鈕背景顏色
+#define navigationBarButtonColor [UIColor colorWithRed:110.0f/255.0f green:110.0f/255.0f blue:110.0f/255.0f alpha:1]
+//下方Toolbar上的按鈕背景顏
+#define toolBarButtonColor [UIColor colorWithRed:110.0f/255.0f green:110.0f/255.0f blue:110.0f/255.0f alpha:1]
+//選取照片畫面按鈕
+#define pictureCellTakcPictureButton [UIImage imageNamed:@"change_og.png"]
+#define pictureCellViewLargePictureButton [UIImage imageNamed:@"magnifier.png"]
+//下方圖的位址
+#define tabbarKaxanoteImage @"tabbar_kaxa.png"
+#define tabbarAboutmeImage @"tabbar_me.png"
+#define tableviewBackground @"bg2.png"
+#define tableViewCellBackground @"task-cell.png"
+//receive local notification
+#define receiveLocalNotificationKey @"receiveLocalNotificationKey"
+
+enum
+{
+    MyRepeatIntervalUnitNone = 0,
+	MyRepeatIntervalUnitSpecific = 1,
+    MyRepeatIntervalUnitYear = 2,
+    MyRepeatIntervalUnitSeason = 3,
+    MyRepeatIntervalUnitMonth = 4,
+    MyRepeatIntervalUnitWeek = 5,
+    MyRepeatIntervalUnitDay = 6,
+    MyRepeatIntervalUnitHour = 7,
+    MyRepeatIntervalUnitMinute = 8,
+    MyRepeatIntervalUnitDelaySeconds = 9
+    
+};
+typedef NSInteger MyRepeatIntervalUnit;
+
+
+
